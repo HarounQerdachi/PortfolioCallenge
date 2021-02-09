@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background-color: whitesmoke;
+}
+.menu-branding{
+    max-width: 1366px;
+    padding: 0 80px;
+    margin: auto;
+    
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.navbar .menu-branding{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 8px;
+    background-color: white;
+}
+.navbar .logo a span{
+    color: red;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 13px;
+}
+.navbar .menu li a{
+    
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 8px;
+    transition: color 0.3;
+    background-color: white;
+}
+.navbar .menu li a:hover{
+    color: red;
+    
+    border-color: red;
+}
+section{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+.home .menu-branding{
+    margin:auto 0 auto 40px;
+}
+.home .home-content{
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    width: 1050px;  
+}
+.image{
+    width: 550PX;
+}
+.text-1{
+    font-size: 25px;
+}
+.text-2{
+    font-size: 50px;
+    font-weight: 500; 
+    margin-left: -3px;
+}
+.text-3{
+    font-size: 30px;
+    margin: 5px 0;
+}
+.home .home-content a{
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    font-size: 25px;
+    padding: 10px 40px;
+    margin: 10px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.home .home-content a:hover{
+    background-color: white;
+    color: crimson;
+    border-color: crimson;
+}
+.home-content>div:first-child{
+    margin-right: 30px;
+    margin-top: 15%}
+.home-content>div:last-child{
+    margin-left: 30px;margin-top: 10%;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    justify-content: space-between;
+    margin-top: 140px;
+    align-items: center;
+
+}
+.paragraphe{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.links{
+    width: 500;
+    display: flex;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.links a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:15px;
+    height: 50px;
+    width: 50px;
+    color: black;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);  
+}
+.links a:hover{
+    border-color:crimson;
+    background-color:white;
+    color: crimson; 
+}

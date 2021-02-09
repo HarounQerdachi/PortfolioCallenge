@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.menu-branding{
+    max-width: 1366px;
+    padding: 0 80px;
+    margin: auto;
+  }
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    
+}
+.navbar .menu-branding{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 8px;
+}
+.navbar .logo a span{
+    color: red;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 13px;
+}
+.navbar .menu li a{
+    
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 8px;
+    transition: color 0.3;
+}
+.navbar .menu li a:hover{
+    color: red;
+    
+    border-color: red;
+}
+section{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
+.box{
+    width: 50%;
+    height: 450px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 40px;
+    padding: 20px;
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
+
+}
+.log{
+    height: 200px;
+    width: 310px;
+    justify-content: center;
+    margin-left: 9px;
+    padding-bottom: 19px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+.paragraphe{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.links{
+    width: 500;
+    display: flex;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.links a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:15px;
+    height: 50px;
+    width: 50px;
+    color: black;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);  
+}
+.links a:hover{
+    border-color:crimson;
+    background-color:white;
+    color: crimson; 
+}

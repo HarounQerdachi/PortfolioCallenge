@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+.menu-branding{
+    max-width: 1366px;
+    padding: 0 80px;
+    margin: auto;
+  }
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    
+}
+.navbar .menu-branding{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: black;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 8px;
+    background-color: white;
+}
+.navbar .logo a span{
+    color: red;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 13px;
+}
+.navbar .menu li a{
+    
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 8px;
+    transition: color 0.3;
+    background-color: white;
+}
+.navbar .menu li a:hover{
+    color: red;
+    
+    border-color: red;
+}
+.content{
+    position: relative;
+    min-height: 78vh;
+    padding: 50px 100px 0 ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+.content .aboutme {
+    max-width: 800;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.content .aboutme h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: red;
+} p{
+    font-size: 21px;
+    font-weight: 300;
+    color: black;
+}
+.skills{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.skills h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: crimson;
+}
+.list{
+    display: flex;
+    margin-top: 20px;
+    font-size: 27px;
+}
+.list .L{
+    margin-right: 100px;
+}
+.list .R{
+    margin-left: 100px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width:100% ;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+.paragraphe{
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.links{
+    width: 500;
+    display: flex;
+    margin-right: 20px;
+    list-style-type: none;
+}
+.links a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:15px;
+    height: 50px;
+    width: 50px;
+    color: black;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);  
+    
+}
+.links a:hover{
+    border-color:crimson;
+    background-color:white;
+    color: crimson; 
+}
